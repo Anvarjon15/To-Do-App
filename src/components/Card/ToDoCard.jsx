@@ -23,7 +23,7 @@ export class ToDoCard extends Component {
             <Button onClick={() => misDone(id)} className='me-3' variant='success'>Done</Button>
         )
         }
-       </div>
+       </div> 
       </Alert>
     )
   }
